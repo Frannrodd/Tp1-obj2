@@ -1,0 +1,3 @@
+initialization
+dislike
+	status := false

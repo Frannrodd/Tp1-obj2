@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "OO2-TP1-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"username",
+		"password",
+		"creationDate",
+		"posts",
+		"following",
+		"interestingTopics"
+	],
+	"name" : "User",
+	"type" : "normal"
+}

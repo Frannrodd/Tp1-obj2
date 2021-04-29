@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "OO2-TP1-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"user",
+		"topic1",
+		"topic2",
+		"topics1",
+		"question1",
+		"answer1",
+		"user2",
+		"user3"
+	],
+	"name" : "PostTest",
+	"type" : "normal"
+}

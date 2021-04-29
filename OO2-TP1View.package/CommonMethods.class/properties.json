@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "OO2-TP1View",
+	"classinstvars" : [
+		"cuOOra",
+		"sesion"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cuOOra",
+		"sesion"
+	],
+	"name" : "CommonMethods",
+	"type" : "normal"
+}

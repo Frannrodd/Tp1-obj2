@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "CommonMethods",
+	"category" : "OO2-TP1View",
+	"classinstvars" : [
+		"question"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"question",
+		"whoQuestion",
+		"description",
+		"answer2"
+	],
+	"name" : "AddAnswerComponent",
+	"type" : "normal"
+}

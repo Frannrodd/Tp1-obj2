@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Post",
+	"category" : "OO2-TP1-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"answers",
+		"topics"
+	],
+	"name" : "Question",
+	"type" : "normal"
+}

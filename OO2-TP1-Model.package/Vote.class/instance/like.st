@@ -1,0 +1,3 @@
+initialization
+like
+	status := true
