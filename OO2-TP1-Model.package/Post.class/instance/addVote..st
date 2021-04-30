@@ -1,3 +1,3 @@
 accessing
-addVote: arg1
-	votes add: arg1
+addVote: aVote
+	votes add: aVote

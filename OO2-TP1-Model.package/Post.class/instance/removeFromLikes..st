@@ -1,7 +1,7 @@
 adding
-removeFromLikes: arg1
-	| tmp1 |
-	((self likes collect: [ :arg2 | arg2 user ]) includes: arg1)
-		ifTrue: [ tmp1 := (self likes select: [ :arg3 | arg3 user = arg1 ])
+removeFromLikes: anUser
+	| aVote |
+	((self likes collect: [ :arg2 | arg2 user ]) includes: anUser)
+		ifTrue: [ aVote := (self likes select: [ :arg3 | arg3 user = anUser ])
 				asOrderedCollection first.
-			self votes remove: tmp1 ]
+			self votes remove: aVote ]

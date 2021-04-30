@@ -1,3 +1,3 @@
 accessing
 answers
-	^ self posts select: [ :arg1 | arg1 isQuestion not ]
+	^ self posts reject: [ :arg1 | arg1 isQuestion ]

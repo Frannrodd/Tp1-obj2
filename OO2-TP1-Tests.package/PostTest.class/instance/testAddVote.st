@@ -1,5 +1,6 @@
 test
 testAddVote
-	self assert: question1 votes size equals: 0.
-	question1 addVote: (Like userLikes: user).
-	self assert: question1 votes size equals: 1
+	|aVote|
+	aVote := Vote userDislikes: user.
+	question1 addVote: aVote.
+	self assert:( question1 voteIn: aVote) equals: true

@@ -14,7 +14,8 @@
 		"topic3",
 		"question1",
 		"user2",
-		"user3"
+		"user3",
+		"answer1"
 	],
 	"name" : "UserTest",
 	"type" : "normal"

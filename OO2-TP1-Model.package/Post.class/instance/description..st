@@ -1,3 +1,3 @@
 accessing
-description: arg1
-	description := arg1
+description: aDescription
+	description := aDescription

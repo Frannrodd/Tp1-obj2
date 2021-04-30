@@ -1,3 +1,3 @@
 accessing
-password: arg1
-	password := arg1
+password: aPassword
+	password := aPassword

@@ -1,3 +1,3 @@
 removing
-deleteThisquestion: arg1
-	self posts remove: arg1
+deleteThisquestion: aPost
+	self posts remove: aPost

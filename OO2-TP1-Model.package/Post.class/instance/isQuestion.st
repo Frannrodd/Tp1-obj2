@@ -1,3 +1,3 @@
 testing
 isQuestion
-	
+	self subclassResponsibility 

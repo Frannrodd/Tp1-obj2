@@ -12,7 +12,10 @@
 		"topic2",
 		"topic3",
 		"topics1",
-		"user1"
+		"user1",
+		"question1",
+		"answer1",
+		"answer2"
 	],
 	"name" : "CuOOraTest",
 	"type" : "normal"

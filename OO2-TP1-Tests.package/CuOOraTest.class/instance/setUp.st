@@ -12,4 +12,12 @@ setUp
 		addQuestionTitle: 'Como se hace una buena hamburguesa?'
 		Description: 'Me gustaria saberlo'
 		Topics: topics1.
-	cuoora addUser: user1
+	cuoora addUser: user1.
+	question1 := Question
+		title: 'Alguien me recomienda una buena banda de jazz?'
+		Description: 'Bandas de jazz'
+		Topics: topics1
+		User: user.
+	answer1 := Answer
+		description: 'Depende donde lo hagas y de que manera'
+		User: user1

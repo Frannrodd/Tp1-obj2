@@ -1,3 +1,3 @@
-accessing
+accessing-testing
 topicIn: aTopic
-	^ self topics includes: aTopic
+	^topics includes: aTopic
