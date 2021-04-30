@@ -8,6 +8,7 @@ setUp
 	topic1 := Topic title: 'Hamburguesas' description: 'Comida'.
 	topic2 := Topic title: 'Fideos' description: 'Comida'.
 	topics1 := Set with: topic1.
+	user1 follow: user.
 	user1
 		addQuestionTitle: 'Como se hace una buena hamburguesa?'
 		Description: 'Me gustaria saberlo'
@@ -20,4 +21,4 @@ setUp
 		User: user.
 	answer1 := Answer
 		description: 'Depende donde lo hagas y de que manera'
-		User: user1
+		User: user1.
