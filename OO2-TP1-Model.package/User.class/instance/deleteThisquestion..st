@@ -1,3 +1,4 @@
 removing
 deleteThisquestion: aPost
-	self posts remove: aPost
+		(posts  includes: aPost) ifTrue: [self posts remove: aPost  ]
+	
