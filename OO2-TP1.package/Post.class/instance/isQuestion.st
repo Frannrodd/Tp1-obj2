@@ -1,0 +1,3 @@
+testing
+isQuestion
+	self subclassResponsibility 
