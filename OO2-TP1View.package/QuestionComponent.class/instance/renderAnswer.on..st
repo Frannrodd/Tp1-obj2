@@ -14,7 +14,7 @@ renderAnswer: arg1 on: arg2
 								with:
 									(cuOOra users select: [ :arg4 | arg4 answers includes: arg1 ]) first
 										username ] ];
-				tableRow: [ arg2 tableData: arg1 description ];
+					tableRow: [ arg2 tableData: arg1 description ];
 				tableRow: [ arg2
 						tableData:
 							'likes ' , arg1 quantityOfLikes asString , ' | dislikes '

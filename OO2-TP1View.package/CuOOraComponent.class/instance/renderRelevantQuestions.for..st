@@ -1,6 +1,6 @@
 rendering
 renderRelevantQuestions: arg1 for: arg2
-	| tmp1 tmp2 tmp3 |
+	| tmp2 tmp3 |
 	tmp3 := Set new.
 	arg2 interestingTopics
 		do: [ :arg3 | 

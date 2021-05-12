@@ -1,6 +1,6 @@
 adding
-dislike: aVote
-	((self dislikes collect: [ :arg2 | arg2 user ]) includes: aVote)
-		ifFalse: [ self
-				removeFromLikes: aVote;
-				addVote: (Vote userDislikes: aVote) ]
+dislike: aUser
+(self dislikes anySatisfy: [ :vote | vote user = aUser ])
+ifFalse: [ self
+removeFromLikes: aUser;
+addVote: (Vote userDislikes: aUser) ]
