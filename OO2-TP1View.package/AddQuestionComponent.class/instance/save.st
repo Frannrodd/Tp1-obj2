@@ -1,17 +1,14 @@
 as yet unclassified
 save
-	| tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 |
-	tmp1 := self topics substrings: ','.
-	tmp2 := Set new.
-	tmp3 := tmp1 size.
-	tmp5 := tmp3.
-	tmp7 := tmp5.
-	1 to: tmp7 do: [ :tmp8 | 
-		tmp6 := Topic title: (tmp1 at: tmp8) description: ''.
-		tmp2 add: tmp6.
-		cuOOra addTopic: tmp6 ].
-	tmp4 := question.
-	tmp4
-		topics: tmp2;
+	| topicCollection aTopicSet newQuestion topic |
+	topicCollection := self topics substrings: ','.
+	aTopicSet := Set new.
+	1 to: topicCollection size do: [ :tmp8 | 
+		topic := Topic title: (topicCollection at: tmp8) description: ''.
+		aTopicSet add: topic.
+		cuOOra addTopic: topic ].
+	newQuestion := question.
+	newQuestion
+		topics: aTopicSet;
 		title: title.
 	^ self answer
